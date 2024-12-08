@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUMAH MAKAN RODA BARU BANJAR</title>
+    <link rel="shortcut icon" href="menu/images/logo rb.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <div class="navbar">
+      <img src="menu/images/logo rb.png" alt="Logo" width="100px"/> 
+        <div class="navbar-left">
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">Tentang Kami</a>
+                <a href="#contact">Contact</a>
+                <a href="https://food.grab.com/id/id/restaurant/rumah-makan-roda-baru-banjar-delivery/6-CZJ1SGLVTPWJL6" class="order">Order Sekarang</a>
+            </div>
+          </div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <!-- homepage -->
+     <section class="home">
+      <div class="background">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Selamat Datang di Rumah Makan Roda Baru</h1>
+            <p>Nikmati hidangan lezat dan pengalaman tak terlupakan.</p>
+            <a href="menu/menu.html">
+            <button class="button">Lihat Menu</button></a>
+        </div>
+    </div>
+     </section>
+<!-- menu  -->
+    <section class="menu" id="menu">
+      <div class="menu-section">
+        <h2 class="menu-title">MENU BEST SELER DI RODA BARU</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="menu/images/rdg.jpeg" alt="Menu 1"> 
+                <div class="menu-item-name">Nasi Rendang</div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <!-- Bintang setengah -->
+                </div>
+                <div class="menu-item-price">Rp 20.000</div>
+                <button class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Order Sekarang
+                </button>
+            </div>
+            <div class="menu-item">
+                <img src="menu/images/NASI AYM GRG.png" alt="Menu 2"> <!-- Ganti dengan URL gambar Anda -->
+                <div class="menu-item-name">Nasi Ayam Goreng</div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i> <!-- Bintang setengah -->
+                </div>
+                <div class="menu-item-price">IDR 20.000</div>
+                <button class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Order Sekarang
+                </button>
+            </div>
+            <div class="menu-item">
+                <img src="menu/images/bkr.webp" alt="Menu 3"> <!-- Ganti dengan URL gambar Anda -->
+                <div class="menu-item-name">Nasi Ayam Bakar</div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i> <!-- Bintang setengah -->
+                </div>
+                <div class="menu-item-price">IDR 20.000</div>
+                <button class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Order Sekarang
+                </button>
+            </div>
+        </div>
+        
+        <div class="more">
+            <a href="menu/menu.html">LIHAT LEBIH BANYAK</a>
+        </div>
+    </div>
+    </div>
+    </section>
+
+
+    <!-- about -->
+     <section id="about">
+    <div class="about-section">
+        <h2 class="about-title">Tentang Roda Baru</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="menu/images/home.jpeg" alt="Restoran Kami"> <!-- Ganti dengan URL gambar Anda -->
+            </div>
+            <div class="about-text">
+                <p>
+                    Roda Baru, rumah makan ini datang ke Kota Banjar, untuk melakukan Usaha Berdagang, Tahun 2003 sebelum menjadi rumah makan, kami membuka usaha Toko Sepatu dan selanjutnya membuka Bisnis Kuliner di 2011 dengan membuka RM Makan Roda Baru.
+                </p>
+                <p>Sebelum diberi Nama Roda Baru, ada beberapa Nama yang akan digunakan namun dengan alasan lebih mudah diingat dan Di Baca dipilihlah Roda Baru sebagai Nama Usaha Rumah Makan Khas Padang.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- contact -->
+
+<section id="contact">
+    <div class="contact-section">
+        <h2 class="contact-title">Kontak Kami</h2>
+        <div class="contact-info">
+            <p>Alamat Kami : Jl Letjend Suwarto No 12A ,Kota Banjar </p>
+           <a href="web.whatsapp.com"></a> <p>No. Telepon : 0821-1956-2000</p></a>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <input type="text" placeholder="Subjek" required>
+            <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+        <div class="map-container">
+            <h3>Lokasi Kami</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126619.28568996802!2d108.45501989565447!3d-7.370404518128267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e658524af9e2a43%3A0xe6fbefb00ee45d13!2sRumah%20Makan%20Rodabaru!5e0!3m2!1sid!2sid!4v1733323131956!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+
+<!-- <footer></footer> -->
+<div class="footer">
+    <p>&copy; 2024 Roda Baru. All Rights Reserved By Farhan</p>
+</div>
+
+<!-- RAPIH NINGANN -->
+  </body>
+  <script src="script.js"></script>
+</html>
